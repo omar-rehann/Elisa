@@ -1,0 +1,319 @@
+/* strat nav bar */
+
+.navbar ul.dropdown-menu li a:hover {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* end nav bar */
+
+
+/* start landing */
+
+.landing {
+    background-image: url(img/odd_background.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.landing .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 10%);
+    z-index: -1;
+}
+
+.landing .continer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 2;
+    width: 100%;
+}
+
+
+/* end laning */
+
+
+/* start temp */
+
+.temp .continer h2 {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.temp .continer h2::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: orangered;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+}
+
+.temp .content .row .card {
+    box-shadow: 0 0 20px black;
+    border-radius: 7px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.temp .content .row .card:hover {
+    transform: scale(0.91);
+}
+
+
+/* end temp */
+
+
+/* start special */
+
+.special {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.special .continer h3:nth-child(2) {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.special .continer h3:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* end special */
+
+
+/* start service */
+
+.service {
+    padding: 20px;
+}
+
+.service .continer h3:nth-child(2) {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.service .continer h3:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* end service */
+
+
+/* start porfilo */
+
+.portfilo {
+    overflow: hidden !important;
+}
+
+.portfilo .content .tab-content .image {
+    position: relative;
+}
+
+.portfilo .content .tab-content .image .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 70%);
+    text-align: left;
+    line-height: 2;
+    color: white;
+    padding: 5px;
+    transition: 5s;
+    display: none;
+    transition-duration: 4s;
+}
+
+.portfilo .content .tab-content .image:hover .text {
+    display: block;
+    transition: 6s;
+    transition-delay: 5s;
+}
+
+
+/* end portfilo */
+
+
+/* start team */
+
+.team {
+    padding: 20px;
+}
+
+.team .continer h3:nth-child(2) {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.team .continer h3:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* end team */
+
+
+/* start spot  */
+
+.spot .continer {
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.spot .continer .text h2:nth-child(2) {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.spot .continer .text h2:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.spot .content .text h2:nth-child(2) {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.spot .content .text h2:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* end spot */
+
+
+/* start news */
+
+.new .continer h3:nth-child(2) {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.new .continer h3:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.new .content .row .card h5 {
+    position: relative;
+    padding-bottom: 10px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.new .content .row .card h5::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* end news */
+
+
+/* start team two */
+
+.team-two .content .row .image {
+    position: relative;
+}
+
+.team-two .content .row .image .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 70%);
+    text-align: left;
+    line-height: 2;
+    color: white;
+    padding: 5px;
+    transition: 5s;
+    display: none;
+    transition-duration: 4s;
+}
+
+.team-two .content .row .image:hover .text {
+    display: block;
+    transition: 6s;
+    transition-delay: 5s;
+}
+
+
+/* end team two */
